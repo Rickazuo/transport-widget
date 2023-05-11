@@ -25,6 +25,14 @@
   gap: 2.5rem;
 }
 
+.phone:hover {
+  cursor: pointer;
+}
+
+.shield:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 680px) {
   .container {
     flex-direction: column;

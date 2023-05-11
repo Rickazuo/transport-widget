@@ -15,8 +15,20 @@ export default function ContactDriver() {
         placeholder="Enviar mensagem para Boris..."
       />
       <div className={styles.emergencyIcons}>
-        <Image src={phone} alt="icon of a phone" width={48} height={48} />
-        <Image src={shield} alt="icon of a shield" width={46} height={48} />
+        <Image
+          className={styles.phone}
+          src={phone}
+          alt="icon of a phone"
+          width={48}
+          height={48}
+        />
+        <Image
+          className={styles.shield}
+          src={shield}
+          alt="icon of a shield"
+          width={46}
+          height={48}
+        />
       </div>
     </div>
   );
