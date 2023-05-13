@@ -13,6 +13,10 @@
   --color-pink-50: #e5d8ea;
 }
 
+::-webkit-input-placeholder{
+  color: #372d3b;
+}
+
 body {
   background-color: var(--color-white);
 
